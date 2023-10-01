@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="stylim.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tempDiv">
+        <div class="baslik">
+            <h1>Hava Sıcaklığı Çevirici</h1>
+        </div>
+
+        <div class="kutu celsius">
+            <p>Celsius</p>
+            <input  onchange="calculateTemp(event)" type="number"  id="Celsius" name="celsius" placeholder="Hava kaç derece?" class="tempInput">
+        </div>
+
+        <div class="kutu fahrenheit">
+            <p>Fahrenheit</p>
+            <input onchange="calculateTemp(event)" type="number" id="Fahrenheit" name="fahrenheit" placeholder="Hava kaç derece?" class="tempInput">
+        </div>
+
+
+        <div class="kutu kelvin">
+            <p>Kelvin</p>
+            <input onchange="calculateTemp(event)" type="number" id="Kelvin"  name="kelvin" placeholder="Hava kaç derece?" class="tempInput">
+        </div>
+
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+ 
+
+
+   
+    <script src="scriptim.js"></script>
+</body>
+</html>
