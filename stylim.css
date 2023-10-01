@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.container{
+    background-color:limegreen;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+p{
+    color: darkcyan;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: darkcyan;
+    
+}
+
+input{
+    border: none;
+    background: lightsteelblue;
+    width: 70%;
+    height: 20px;
+    padding: 14px;
+    margin: 17px;
+    border-radius: 10px;
+
+}
+
+.kutu{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+#Fahrenheit{
+    display: flex;
+    right: 35px;
+}
+
+.baslik{
+    margin-bottom: 10px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+    .container{
+        background-color: blueviolet;
+    }
+    .tempDiv{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+    }
+  
